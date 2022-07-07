@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Red+Hat+Display:wght@500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(pattern-background-desktop.svg);
+  background-color: hsl(225, 100%, 94%);
+}
+#main {
+  width: 28%;
+  background-color: white;
+  height: 580px;
+  border-radius: 15px;
+  margin: auto;
+  margin-top: 80px;
+  text-align: center;
+  font-family: "Red Hat Display";
+  color: hsl(223, 47%, 23%);
+  box-shadow: 5px 5px 0px 8px hsl(225, 100%, 94%, 0.4);
+}
+.dance {
+  width: 100%;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+.content h1 {
+  font-size: 26px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  font-weight: 900;
+}
+.content p {
+  font-size: 16px;
+  padding: 5px 40px;
+  font-weight: 400;
+}
+.flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  margin: 10px 30px;
+  padding: 40px;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 6px;
+}
+.music_icon {
+  width: 12%;
+  position: absolute;
+  left: 20px;
+}
+.plan {
+  position: absolute;
+  left: 73px;
+}
+a {
+  position: absolute;
+  right: 25px;
+  font-size: 12px;
+  font-weight: 900;
+  color: hsl(245, 75%, 52%);
+}
+.plan h2 {
+  font-size: 15px;
+  font-weight: 900;
+  padding-bottom: 5px;
+}
+.plan p {
+  font-size: 15px;
+  font-weight: 500;
+}
+button {
+  margin: 20px 0;
+  padding: 13px 100px;
+  font-weight: 700;
+  color: white;
+  background-color: hsl(245, 75%, 52%);
+  border: none;
+  font-size: 13px;
+  font-family: "Red Hat Display";
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 5px 5px 0px 8px hsl(225, 100%, 94%, 0.4);
+}
+button:hover {
+  background-color: white;
+  color: hsl(245, 75%, 52%);
+  border: 1px solid hsl(245, 75%, 52%);
+}
+
+.cancel {
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+
